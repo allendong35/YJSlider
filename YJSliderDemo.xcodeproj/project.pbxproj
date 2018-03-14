@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E44CFDE22057A99D00859710 /* UIView+YJAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E44CFDE12057A99D00859710 /* UIView+YJAnimation.m */; };
+		E44CFDE72057A9D700859710 /* checkbox_choose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E44CFDE32057A9D600859710 /* checkbox_choose@2x.png */; };
+		E44CFDE82057A9D700859710 /* checkbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E44CFDE42057A9D600859710 /* checkbox@2x.png */; };
+		E44CFDE92057A9D700859710 /* checkbox@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E44CFDE52057A9D600859710 /* checkbox@3x.png */; };
+		E44CFDEA2057A9D700859710 /* checkbox_choose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E44CFDE62057A9D700859710 /* checkbox_choose@3x.png */; };
+		E44CFDED2057DC0000859710 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44CFDEC2057DC0000859710 /* QuartzCore.framework */; };
+		E44CFDEF2057DC0A00859710 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44CFDEE2057DC0900859710 /* UIKit.framework */; };
+		E44CFDF12057DC1300859710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44CFDF02057DC1300859710 /* Foundation.framework */; };
+		E44CFDFA20591FA100859710 /* UIButton+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = E44CFDF920591FA100859710 /* UIButton+Tracking.m */; };
 		E46711C020464DC6002F01A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E46711BF20464DC6002F01A3 /* AppDelegate.m */; };
 		E46711C320464DC6002F01A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46711C220464DC6002F01A3 /* ViewController.m */; };
 		E46711C620464DC6002F01A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46711C420464DC6002F01A3 /* Main.storyboard */; };
@@ -19,6 +28,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E44CFDE02057A99D00859710 /* UIView+YJAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YJAnimation.h"; sourceTree = "<group>"; };
+		E44CFDE12057A99D00859710 /* UIView+YJAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YJAnimation.m"; sourceTree = "<group>"; };
+		E44CFDE32057A9D600859710 /* checkbox_choose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_choose@2x.png"; sourceTree = "<group>"; };
+		E44CFDE42057A9D600859710 /* checkbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox@2x.png"; sourceTree = "<group>"; };
+		E44CFDE52057A9D600859710 /* checkbox@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox@3x.png"; sourceTree = "<group>"; };
+		E44CFDE62057A9D700859710 /* checkbox_choose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_choose@3x.png"; sourceTree = "<group>"; };
+		E44CFDEC2057DC0000859710 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E44CFDEE2057DC0900859710 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E44CFDF02057DC1300859710 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E44CFDF820591FA100859710 /* UIButton+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Tracking.h"; sourceTree = "<group>"; };
+		E44CFDF920591FA100859710 /* UIButton+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Tracking.m"; sourceTree = "<group>"; };
 		E46711BB20464DC6002F01A3 /* YJSliderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJSliderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46711BE20464DC6002F01A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E46711BF20464DC6002F01A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,17 +60,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44CFDF12057DC1300859710 /* Foundation.framework in Frameworks */,
+				E44CFDEF2057DC0A00859710 /* UIKit.framework in Frameworks */,
+				E44CFDED2057DC0000859710 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E44CFDEB2057DBFF00859710 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E44CFDF02057DC1300859710 /* Foundation.framework */,
+				E44CFDEE2057DC0900859710 /* UIKit.framework */,
+				E44CFDEC2057DC0000859710 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E44CFDF720591FA100859710 /* Un */ = {
+			isa = PBXGroup;
+			children = (
+				E44CFDF820591FA100859710 /* UIButton+Tracking.h */,
+				E44CFDF920591FA100859710 /* UIButton+Tracking.m */,
+			);
+			name = Un;
+			path = ../../cfp_rn/ios/CaiFuPai_swift/Src/Un;
+			sourceTree = "<group>";
+		};
 		E46711B220464DC6002F01A3 = {
 			isa = PBXGroup;
 			children = (
 				E46711BD20464DC6002F01A3 /* YJSliderDemo */,
 				E46711BC20464DC6002F01A3 /* Products */,
+				E44CFDEB2057DBFF00859710 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,8 +109,13 @@
 		E46711BD20464DC6002F01A3 /* YJSliderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E44CFDF720591FA100859710 /* Un */,
 				E46711D720468FEC002F01A3 /* sliderBtn@2x.png */,
 				E46711D820468FEC002F01A3 /* sliderBtn@3x.png */,
+				E44CFDE32057A9D600859710 /* checkbox_choose@2x.png */,
+				E44CFDE62057A9D700859710 /* checkbox_choose@3x.png */,
+				E44CFDE42057A9D600859710 /* checkbox@2x.png */,
+				E44CFDE52057A9D600859710 /* checkbox@3x.png */,
 				E46711D420464E05002F01A3 /* YJSlider.h */,
 				E46711D520464E05002F01A3 /* YJSlider.m */,
 				E46711BE20464DC6002F01A3 /* AppDelegate.h */,
@@ -74,6 +123,8 @@
 				E46711C120464DC6002F01A3 /* ViewController.h */,
 				E46711C220464DC6002F01A3 /* ViewController.m */,
 				E46711C420464DC6002F01A3 /* Main.storyboard */,
+				E44CFDE02057A99D00859710 /* UIView+YJAnimation.h */,
+				E44CFDE12057A99D00859710 /* UIView+YJAnimation.m */,
 				E46711C720464DC6002F01A3 /* Assets.xcassets */,
 				E46711C920464DC6002F01A3 /* LaunchScreen.storyboard */,
 				E46711CC20464DC6002F01A3 /* Info.plist */,
@@ -140,11 +191,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44CFDE72057A9D700859710 /* checkbox_choose@2x.png in Resources */,
+				E44CFDEA2057A9D700859710 /* checkbox_choose@3x.png in Resources */,
 				E46711DA20468FEC002F01A3 /* sliderBtn@3x.png in Resources */,
 				E46711D920468FEC002F01A3 /* sliderBtn@2x.png in Resources */,
 				E46711CB20464DC6002F01A3 /* LaunchScreen.storyboard in Resources */,
+				E44CFDE92057A9D700859710 /* checkbox@3x.png in Resources */,
 				E46711C820464DC6002F01A3 /* Assets.xcassets in Resources */,
 				E46711C620464DC6002F01A3 /* Main.storyboard in Resources */,
+				E44CFDE82057A9D700859710 /* checkbox@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,8 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44CFDFA20591FA100859710 /* UIButton+Tracking.m in Sources */,
 				E46711C320464DC6002F01A3 /* ViewController.m in Sources */,
 				E46711CE20464DC6002F01A3 /* main.m in Sources */,
+				E44CFDE22057A99D00859710 /* UIView+YJAnimation.m in Sources */,
 				E46711D620464E05002F01A3 /* YJSlider.m in Sources */,
 				E46711C020464DC6002F01A3 /* AppDelegate.m in Sources */,
 			);
